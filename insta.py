@@ -1,13 +1,14 @@
-import instaloader
-from datetime import datetime
-loader = instaloader.Instaloader()
+print("hello")
+#import instaloader
+#from datetime import datetime
+#loader = instaloader.Instaloader()
 #loader = Instaloader()
 #USERNAME = "targetUsername"
 #loader.load_session_from_file('your_session_username')
 #profile = instaloader.Profile.from_username(loader.context,USERNAME)
 
 #download only profile pic
-loader.download_profile(USERNAME,profile_pic_only=True)
+#loader.download_profile(USERNAME,profile_pic_only=True)
 
 # post_url = "https://www.instagram.com/p/CgbAU5GD6MU/"
 # post = instaloader.Post.from_shortcode(loader.context, post_url.split("/")[-2])
