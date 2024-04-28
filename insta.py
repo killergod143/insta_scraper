@@ -2,8 +2,8 @@ import instaloader
 from datetime import datetime
 loader = instaloader.Instaloader()
 #loader = Instaloader()
-USERNAME = "killergod007"
-loader.load_session_from_file('killergod007')
+USERNAME = "targetUsername"
+loader.load_session_from_file('your_session_username')
 profile = instaloader.Profile.from_username(loader.context,USERNAME)
 
 #download only profile pic
